@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 3.8rem;
+
+    @media screen and (min-width: 766px) {
+        font-size: 4.5rem;
+    }
+}
+
+h2 {
+    font-size: 3.2rem;
+
+    @media screen and (min-width: 766px) {
+        font-size: 3.8rem;
+    }
+}
+
+p{
+    font-size: 1.5rem;
+   
+    @media screen and (min-width: 766px) {
+            font-size: 1.8rem;
+        }
+}
+

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.navbar{
+    background-color: rgb(8, 72, 156);
+}
+
+.shop,
+.cart{
+    padding: 0.5rem;    
+    color: white;     
+    
+        &:visited {
+            color: white;
+        }
+}
+
+.shop{
+    font-size: 2rem;
+    transition:  transform 0.1s;
+
+    &:hover{
+        text-decoration: underline;
+    }
+    
+    @media screen and (min-width: 1024px) {
+        font-size: 2rem;
+        margin-left: 60rem;
+
+    }
+}
+
+.cart{
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    justify-content: center; 
+}
+
+.navbar__heading{
+    padding: 1rem;
+    font-family: 'Neuton', serif;
+    letter-spacing: 1.8px;
+    @media screen and (min-width: 766px) {
+        margin-left: 2rem;
+    }
+}
+
+.navbar__menu{
+    align-items: center;
+    justify-content: center;
+}
