@@ -26,3 +26,41 @@ p{
         }
 }
 
+.grid {
+    display: grid;
+    row-gap: 0rem;
+    @media screen and (min-width: 768px) {
+        row-gap: 5rem;
+        column-gap: 5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .grid--1x2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .grid--1x3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.btn{
+    white-space: nowrap;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    transition: transform 0.3s;
+
+        &:hover {
+        
+    }
+}
