@@ -12,8 +12,8 @@ function Shop() {
         <h2 className='shop__heading'>Welcome to Amazing Cart</h2>
       </div>
       <div className='container shop__products grid grid--1x2 grid--1x3'>
-        {products.map((product) => (
-          <Product data={ product } />
+        {products.map((product,index) => (
+          <Product data={ product } key={index} />
         ))}
         
       </div>

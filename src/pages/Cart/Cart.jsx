@@ -20,9 +20,9 @@ export const Cart = () => {
         <h1 className="cart__heading">Your Cart Items</h1>
       </div>
       <div className="cart">
-        {products.map((product) => {
+        {products.map((product,index) => {
           if (cartItems[product.id] !== 0) {
-            return <CartItem data={product} className="cart__item" />;
+            return <CartItem data={product} className="cart__item" key={index} />;
           }
         })}
       </div>
