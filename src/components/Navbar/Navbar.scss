@@ -12,7 +12,7 @@
 }
 
 .shop,
-.cart{
+.navbar__cart{
     padding: 0.5rem;    
     color: white;     
     
@@ -23,6 +23,7 @@
 
 .shop{
     font-size: 2rem;
+    margin-left: 5rem;
     transition:  transform 0.1s;
 
     &:hover{
@@ -36,19 +37,24 @@
     }
 }
 
-.cart{
+.navbar__cart{
     display: inline-block;
     margin-top: 1rem;
     margin-right: 1rem;
-    justify-content: center; 
+    justify-content: center;
+    @media screen and (min-width: 1024px) {
+        margin-right: 5rem;
+    } 
 }
 
 .navbar__heading{
     padding: 1rem;
+    font-size: 2.2rem;
     font-family: 'Neuton', serif;
     letter-spacing: 1.8px;
     @media screen and (min-width: 766px) {
         margin-left: 2rem;
+        font-size: 4rem;
     }
 }
 

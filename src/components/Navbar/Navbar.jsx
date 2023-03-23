@@ -12,7 +12,7 @@ function Navbar() {
               <Link to="/" className='shop'>Shop</Link>
                 <div className='navbar__menu'>
                   <Link to="/cart">
-                    <ShoppingCart size={40} className='cart' />    
+                    <ShoppingCart size={40} className='navbar__cart' />    
                   </Link>
                 </div>
           </div>    
