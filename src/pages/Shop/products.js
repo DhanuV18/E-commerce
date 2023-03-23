@@ -54,14 +54,14 @@ export const products = [
     
        {
         id: 7,
-        productName: "Fridge",
+        productName: "Refrigerator",
         price: 1200.00,
         productImage: product7 
     },
     
     {
         id: 8,
-        productName: "heels",
+        productName: "Heels",
         price: 120.00,
         productImage: product8 
     },
