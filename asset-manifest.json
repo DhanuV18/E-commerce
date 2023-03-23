@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Dhanuv18.github.io/E-commerce/static/css/main.8fe1d4e8.css",
+    "main.js": "/Dhanuv18.github.io/E-commerce/static/js/main.f9bc6293.js",
+    "static/js/787.46493d11.chunk.js": "/Dhanuv18.github.io/E-commerce/static/js/787.46493d11.chunk.js",
+    "static/media/toys.png": "/Dhanuv18.github.io/E-commerce/static/media/toys.5a12b76247042e638658.png",
+    "static/media/laptop.png": "/Dhanuv18.github.io/E-commerce/static/media/laptop.d0f2360a97646b8fda03.png",
+    "static/media/smartwatch2.png": "/Dhanuv18.github.io/E-commerce/static/media/smartwatch2.ddb60593648274ec80d7.png",
+    "static/media/cosmetic.png": "/Dhanuv18.github.io/E-commerce/static/media/cosmetic.5037b6ea391ff4f1892c.png",
+    "static/media/handbag.png": "/Dhanuv18.github.io/E-commerce/static/media/handbag.4ce1dad04fe79edf1069.png",
+    "static/media/sneakers.png": "/Dhanuv18.github.io/E-commerce/static/media/sneakers.a15168cdd28e5fba4e1d.png",
+    "static/media/fridge.png": "/Dhanuv18.github.io/E-commerce/static/media/fridge.b936794f69a4772e8c4d.png",
+    "static/media/heels.png": "/Dhanuv18.github.io/E-commerce/static/media/heels.c944ee8936e8d201166b.png",
+    "static/media/jewellery.png": "/Dhanuv18.github.io/E-commerce/static/media/jewellery.d5f12ce5ef83e7060d6b.png",
+    "index.html": "/Dhanuv18.github.io/E-commerce/index.html",
+    "main.8fe1d4e8.css.map": "/Dhanuv18.github.io/E-commerce/static/css/main.8fe1d4e8.css.map",
+    "main.f9bc6293.js.map": "/Dhanuv18.github.io/E-commerce/static/js/main.f9bc6293.js.map",
+    "787.46493d11.chunk.js.map": "/Dhanuv18.github.io/E-commerce/static/js/787.46493d11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fe1d4e8.css",
+    "static/js/main.f9bc6293.js"
+  ]
+}
